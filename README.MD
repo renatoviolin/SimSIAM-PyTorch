@@ -13,7 +13,7 @@ This configuration take ~ 50 sec per epoch.
 ## Pipeline
 1. Train the self-supervised model using the code [train.py](train.py). At end it will be generated a saved named siam.pt
 
-2. Train a [simple classifier](classifier.py) using the same Resnet18 (starting from random weights, not the pretrained), add a classifier head at top of Resnet18, and use the 250 labeled data. 
+2. Train a [linear classifier](classifier.py) using the same Resnet18 (starting from random weights, not the pretrained), add a classifier head at top of Resnet18, and use the 250 labeled data. 
 
 3. Train a simple classifier using the encoder of the model siam.pt, add a classifier head at top of model, and use the 250 labeled data.
 
