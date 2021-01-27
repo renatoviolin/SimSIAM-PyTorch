@@ -32,7 +32,7 @@ To validate this, see the classifier loss using the pre-trained model vs. the ra
 
 # Thoughts
 - Maybe, to avoid the collapse, this strategy only works on huge datasets? 
-- BYOL (two networks and EMA) works fine in the same dataset. See this repository()
+- BYOL (two networks and EMA) works fine in the same dataset. See this [repository](https://github.com/renatoviolin/self-supervised-learning-BYOL)
 
 
 # References
